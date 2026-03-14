@@ -3,7 +3,7 @@ cask "sbot" do
   name "sbot"
   desc ""
   homepage ""
-  version "0.0.8"
+  version "0.0.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "sbot" do
   on_macos do
     on_intel do
       url "https://github.com/yteraoka/sbot/releases/download/v#{version}/sbot_#{version}_darwin_amd64.tar.gz"
-      sha256 "28301e1e7e47a0fe70ec198e9e1841437b28cf2737946dd8923a470314530d79"
+      sha256 "bec67b8f6420669d6a1f77e441f5d8809a0cd90a9c6e28bb0ad1b69e074d14bc"
     end
     on_arm do
       url "https://github.com/yteraoka/sbot/releases/download/v#{version}/sbot_#{version}_darwin_arm64.tar.gz"
-      sha256 "6380a432eeb46a446c53bb9775b573b0e65931e794241c8b27802e271f44b2ea"
+      sha256 "b89a12b4210f40b9766b495809b3115307a9aee61ebac7f3fc45e44dd66e42c3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yteraoka/sbot/releases/download/v#{version}/sbot_#{version}_linux_amd64.tar.gz"
-      sha256 "d9a808cd43190900e530409c08745b623fc85be7b8c728bd5b5c09ac6682ed0f"
+      sha256 "1bf0e5ab75e64d154c04a40f4821470fd690f2813276ce01424ea2fa1a02ee5e"
     end
     on_arm do
       url "https://github.com/yteraoka/sbot/releases/download/v#{version}/sbot_#{version}_linux_arm64.tar.gz"
-      sha256 "82f968e28e86a83c831a7bbbb34df997dd9f38c0b71d09179aec49186efbacbb"
+      sha256 "6aa113344ee910a4a350f37d021428910830ec5590b013d5cfb185050c7e4fae"
     end
   end
 
