@@ -3,7 +3,7 @@ cask "sbottui" do
   name "sbottui"
   desc ""
   homepage ""
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "sbottui" do
   on_macos do
     on_intel do
       url "https://github.com/yteraoka/sbottui/releases/download/v#{version}/sbottui_#{version}_darwin_amd64.tar.gz"
-      sha256 "0357fa5a253a14b853ab3796c39390709f7f1f8416ae5fafc455aa7edbca9826"
+      sha256 "6884436811f5e472299bf3e039f1ec7de24531dffd0c1b6cc1f21a9d2429f41e"
     end
     on_arm do
       url "https://github.com/yteraoka/sbottui/releases/download/v#{version}/sbottui_#{version}_darwin_arm64.tar.gz"
-      sha256 "1fc8941cd5b6fa77dc62769b2c6d2bf0a72e95af61d593eb150dcb82648d6064"
+      sha256 "ca0cb5f162e9fa212ed42be3ec0b3356cbdc15dc95e717bdf6db8e4bab7fb697"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yteraoka/sbottui/releases/download/v#{version}/sbottui_#{version}_linux_amd64.tar.gz"
-      sha256 "54a01831a10a7e0673d3a2f3a4538801e981bc4c221ed8c090362160f312e478"
+      sha256 "39705fae5ccf3d4bdeff317f4076ff4472194cebe5649628bb40255597ef4605"
     end
     on_arm do
       url "https://github.com/yteraoka/sbottui/releases/download/v#{version}/sbottui_#{version}_linux_arm64.tar.gz"
-      sha256 "ed4ca0a8ffcfadeceb26d246a7746263e1120b8bb60b18230feb47d0746cf0f4"
+      sha256 "6f2b255cad222d01dc91fbcbe8b9fbf376f7a2bc244965ee08f2ab9119e46080"
     end
   end
 
