@@ -3,7 +3,7 @@ cask "yabumi" do
   name "yabumi"
   desc ""
   homepage ""
-  version "0.3.1"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "yabumi" do
   on_macos do
     on_intel do
       url "https://github.com/yteraoka/yabumi/releases/download/v#{version}/yabumi_#{version}_darwin_amd64.tar.gz"
-      sha256 "d1fad09aac73737c809c8e25070bd64015751167ed71c832198772c92126faac"
+      sha256 "c1d3c70cbb52d241623ec4d0a809c83d8bcf5181f9e1a695a48bf3cd7799e722"
     end
     on_arm do
       url "https://github.com/yteraoka/yabumi/releases/download/v#{version}/yabumi_#{version}_darwin_arm64.tar.gz"
-      sha256 "b64e5062297a0ded7a47533d8ad6165110afbf1b3039470bb31296372d4ae2de"
+      sha256 "b1c9e150127cdf8d8dc205fa9fa0b6984b137611afa7fccaad1410a0202393f8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yteraoka/yabumi/releases/download/v#{version}/yabumi_#{version}_linux_amd64.tar.gz"
-      sha256 "cc7699aa2c7a3506b79b01b74b32def83a37280adcc915c05bf6276f9d1af2a2"
+      sha256 "6a203dd76db673d737bf7604f03004aca0eea0ae234ce42d10b33bc618839479"
     end
     on_arm do
       url "https://github.com/yteraoka/yabumi/releases/download/v#{version}/yabumi_#{version}_linux_arm64.tar.gz"
-      sha256 "7258800ec2937827b3c860f8689e2c925887165e81d05096f0df060f974594d6"
+      sha256 "ca1b8c61c82bd0007dc813b9dcfa685e51fb282a97b9b2b40bd165935777f76e"
     end
   end
 
